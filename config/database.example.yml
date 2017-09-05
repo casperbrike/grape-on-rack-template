@@ -1,0 +1,5 @@
+environment:
+  username: postgres
+  password: postgres
+  host: localhost
+  database: databse

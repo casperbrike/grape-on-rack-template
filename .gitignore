@@ -1,0 +1,10 @@
+.ruby-version
+.byebug_history
+/config/database.yml
+/config/secrets.yml
+*.sqlite
+/tmp
+/log
+/public
+/coverage
+.rake_tasks~
