@@ -11,7 +11,6 @@ gem 'pg'
 # gem 'carrierwave-sequel', require: 'carrierwave/sequel'
 
 gem 'rack-cors', :require => 'rack/cors'
-gem 'erubis'
 
 group :development do
   gem 'rerun'
