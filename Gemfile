@@ -7,6 +7,7 @@ gem 'sequel_enum'
 gem 'sequel_pg', require: false
 gem 'pg'
 
+gem 'hashie'
 # gem 'carrierwave'
 # gem 'carrierwave-sequel', require: 'carrierwave/sequel'
 

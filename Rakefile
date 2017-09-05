@@ -16,6 +16,11 @@ namespace :app do
   task :console do
     binding.irb
   end
+
+  desc 'Run application in development mode'
+  task :run do
+    sh 'rerun -b -- passenger start'
+  end
 end
 
 namespace :backups do

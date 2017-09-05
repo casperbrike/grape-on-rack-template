@@ -1,11 +1,11 @@
 require 'logger'
+require 'yaml'
 
 $: << Dir.pwd
 env = (ENV['RACK_ENV'] || :development)
 
 require 'bundler'
 Bundler.require :default, env.to_sym
-require 'erb'
 require 'active_support'
 
 module Application
